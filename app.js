@@ -11,11 +11,7 @@ navLinks.forEach(link => {
             top: targetSection.offsetTop,
             behavior: 'smooth'
         });
-
-
         navLinks.forEach(link => link.classList.remove('active-link'));
-        
-
         link.classList.add('active-link');
     });
 });
